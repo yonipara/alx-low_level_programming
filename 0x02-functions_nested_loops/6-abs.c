@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_abs -> gives absolute values of integers
- * @int: integer argument
+ * @j: parameter argument
  * Return: (j);
  */
 int _abs(int j)
