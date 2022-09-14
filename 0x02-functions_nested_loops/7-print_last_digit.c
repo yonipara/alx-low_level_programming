@@ -4,8 +4,8 @@
  * @x: is the argument variable
  * Return: nothing just prints
  */
-int print_last_digit(int x)
+int print_last_digit(int n)
 {
-int n = x % 10;
+n = x % 10;
 return (n);
 }
