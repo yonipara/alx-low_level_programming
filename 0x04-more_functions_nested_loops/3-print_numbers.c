@@ -1,7 +1,6 @@
-#include "main"
+#include "main.h"
 /**
  * print_numbers -> prints all the decimal digits
- * Return: (0); for success
  *
  */
 void print_numbers(void)
