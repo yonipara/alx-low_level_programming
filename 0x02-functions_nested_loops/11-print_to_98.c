@@ -1,4 +1,4 @@
-#include <stdui.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * print_to_98 -> prints all integers upto 98
