@@ -20,7 +20,7 @@ while (n > x)
 printf("%d, ", n);
 n--;
 }
-printf("%d\n", x );
+printf("%d", x );
 while (n < x)
 {
 printf("%d, ", n);
