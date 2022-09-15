@@ -19,5 +19,4 @@ _putchar((j % 10) + '0');
 }
 _putchar('\n');
 }
-_putchar('\n');
 }
