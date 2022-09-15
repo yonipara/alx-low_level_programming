@@ -5,7 +5,7 @@
  * @c: an integer argument
  *
  */
-(int) c;
+c = int(c);
 int isupper(int c)
 {
 if (c >= 65 && c <= 90)
