@@ -11,7 +11,7 @@ int x = 98;
 
 if (n == x)
 {
-printf("%d", n);
+printf("%d\n", n);
 }
 else
 {
@@ -20,10 +20,12 @@ while (n >= x)
 printf("%d, ", n);
 n--;
 }
+printf("\n");
 while (n <= x)
 {
 printf("%d, ", n);
 n++;
 }
+printf("\n");
 }
 }
