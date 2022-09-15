@@ -20,13 +20,12 @@ while (n > x)
 printf("%d, ", n);
 n--;
 }
-printf("\n");
+printf("%d\n", x );
 while (n < x)
 {
 printf("%d, ", n);
 n++;
 }
-printf("%d", x);
-printf("\n");
+printf("%d\n", x);
 }
 }
