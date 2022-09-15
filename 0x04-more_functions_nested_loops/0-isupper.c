@@ -5,9 +5,9 @@
  * @c: an integer argument
  *
  */
-int isupper(int c)
+int isupper((unsigned char) c)
 {
-if ((c >= 'A') && (c <= 'Z'))
+if ((c >= 65) && (c <= 90))
 {
 return (1);
 }
