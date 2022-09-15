@@ -18,11 +18,11 @@ else
 while (n >= x)
 {
 printf("%d, ", n);
-n--
+n--;
 }
 while (n <= x)
 {
 printf("%d, ", n);
-n++
+n++;
 }
 }
