@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * isupper -> checks if a character is uppercase
- * Return: 1 for succes and 0 for failur
+ * Return: 1 for succes and 0 for failure
  * @c: an integer argument
  *
  */
