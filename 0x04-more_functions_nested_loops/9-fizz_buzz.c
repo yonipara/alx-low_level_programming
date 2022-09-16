@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * main Entry point for the fizz buzz conditional expressions
- * Fizz for 3
- * Buzz for 5 and Fizzbuzz for both
- * Return:Always 0 (Success)
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 
 int main(void)
