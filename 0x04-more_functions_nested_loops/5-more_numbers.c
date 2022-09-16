@@ -3,13 +3,19 @@
  * more_numbers -> prints same numbers consecutively in a new line
  *
  */
+int main(void)
+{
+more_numbers();
+return (0);
+}
+
 void more_numbers(void)
 {
 int i;
 int j;
 for (i = 0; i < 10; i++)
 {
-for (j = 0; j < 14; j++)
+for (j = 0; j < 15; j++)
 {
 if (j <= 9)
 {
