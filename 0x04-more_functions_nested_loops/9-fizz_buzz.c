@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * main Entry point for the fizz buzz conditional expressions.
+ * main Entry point for the fizz buzz conditional expressions
+ * Fizz for 3
+ * Buzz for 5 and Fizzbuzz for both
  * Return:Always 0 (Success)
  */
 
@@ -18,7 +20,7 @@ else if ((i % 5) == 0)
 {
 printf("Buzz ");
 }
-else if ((i % 3) == 0) 
+else if ((i % 3) == 0)
 {
 printf("Fizz ");
 }
