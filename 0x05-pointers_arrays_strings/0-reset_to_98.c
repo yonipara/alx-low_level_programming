@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * reset_to_98 resets an int to 98.
+ * reset_to_98 -> resets any integer argument to 98.
  * @n:is a pointer variable
  * Return: nothing
  */
