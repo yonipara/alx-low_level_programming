@@ -18,7 +18,7 @@ str -= (i / 2);
 
 while (*str != '\0')
 {
-_putchar(*str)l
+_putchar(*str);
 str++;
 }
 _putchar('\n');
