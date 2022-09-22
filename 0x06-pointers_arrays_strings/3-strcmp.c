@@ -34,6 +34,6 @@ else
 {
 i++;
 }
+}
 return (diff);
 }
-i}
