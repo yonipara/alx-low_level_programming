@@ -1,18 +1,18 @@
 #include "main.h"
 /**
  * string_toupper -> changes a string of characters to upper case
- * @src: a pointer argument
+ * @str: a pointer argument
  * Return: a pointer for a string
  */
-char *string_toupper(char *src)
+char *string_toupper(char *str)
 {
 int i = 0;
 
-while (src[i++]
+while (str[i++])
 {
-if (src[i] >= 'a' && src[i] <= 'z')
+if (str[i] >= 'a' && str[i] <= 'z')
 {
-src[i] -= 32;
+str[i] -= 32;
 }
 }
 return (src);
