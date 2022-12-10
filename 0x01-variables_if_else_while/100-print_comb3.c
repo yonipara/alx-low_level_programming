@@ -16,14 +16,6 @@ for (b = 48; b <= 57; b++)
 {
 if (b > a)
 {
-if (a == 56 && b == 57)
-{
-putchar(a);
-putchar(b);
-putchar('\n');
-}
-else
-{
 putchar(a);
 putchar(b);
 putchar(',');
@@ -31,6 +23,6 @@ putchar(' ');
 }
 }
 }
-}
+putchar('\n');
 return (0);
 }
