@@ -18,6 +18,10 @@ if (b > a)
 {
 putchar(a);
 putchar(b);
+if (a == 56 && b == 57)
+{
+break;
+}
 putchar(',');
 putchar(' ');
 }
