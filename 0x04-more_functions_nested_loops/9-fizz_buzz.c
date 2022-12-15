@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - check the code
  *
@@ -14,22 +15,22 @@ for (i = 1; i <= 100; i++)
 if ((i % 15) == 0)
 {
 printf("FizzBuzz");
-printf(" ");
+printf("%c", 32);
 }
 else if ((i % 5) == 0)
 {
 printf("Buzz");
-printf(" ");
+printf("%c", 32);
 }
 else if ((i % 3) == 0)
 {
 printf("Fizz");
-printf(" ");
+printf("%c", 32);
 }
 else
 {
 printf("%d", i);
-printf(" ");
+printf("%c", 32);
 }
 }
 printf("\n");
