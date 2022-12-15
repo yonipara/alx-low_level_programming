@@ -37,7 +37,7 @@ printf("%c", 32);
 }
 else
 {
-printf("%d", i);
+printf("Buzz");
 printf("\n");
 }
 }
