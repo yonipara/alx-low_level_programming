@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - check the code
- * Return: Always 0.
  * more_numbers -> prints same numbers consecutively in a new line
+ * Return: Always 0.
  *
  */
 
