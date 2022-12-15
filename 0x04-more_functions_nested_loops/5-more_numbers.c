@@ -5,11 +5,7 @@
  * more_numbers -> prints same numbers consecutively in a new line
  *
  */
-int main(void)
-{
-more_numbers();
-return (0);
-}
+
 void more_numbers(void)
 {
 int i;
