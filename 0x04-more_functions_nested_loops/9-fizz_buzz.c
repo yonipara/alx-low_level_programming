@@ -12,6 +12,8 @@ int i;
 
 for (i = 1; i <= 100; i++)
 {
+if (i != 100)
+{
 if ((i % 15) == 0)
 {
 printf("FizzBuzz");
@@ -33,7 +35,12 @@ printf("%d", i);
 printf("%c", 32);
 }
 }
+else
+{
+printf("%d", i);
 printf("\n");
+}
+}
 return (0);
 }
 
