@@ -15,7 +15,7 @@ while (j <= 9)
 {
 if (j != 9)
 {
-x = j *i;
+x = j * i;
 _putchar(x + '0');
 _putchar(',');
 _putchar(' ');
@@ -23,7 +23,7 @@ _putchar(' ');
 }
 else
 {
-x = j *i;
+x = j * i;
 _putchar(x + '0');
 }
 j++;
