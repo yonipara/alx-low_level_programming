@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * more_numbers -> prints same numbers consecutively in a new line
@@ -23,7 +24,7 @@ _putchar((j / 10) + '0');
 _putchar((j % 10) + '0');
 }
 }
-_putchar('\n');
+printf("\n");
 }
 }
 
