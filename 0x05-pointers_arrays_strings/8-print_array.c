@@ -13,10 +13,11 @@ int i;
 
 if (n <= 0)
 {
-printf("%d", *a);
+printf("%d\n", *a);
 }
-
-for (i = 0; i <= n; i++)
+else
+{
+for (i = 0; i < n; i++)
 {
 if (i == n - 1)
 {
@@ -27,6 +28,7 @@ else
 printf("%d", *(a + i));
 printf(",");
 printf(" ");
+}
 }
 }
 }
