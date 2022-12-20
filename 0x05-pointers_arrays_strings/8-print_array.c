@@ -13,7 +13,7 @@ int i;
 
 if (n == 0)
 {
-;
+printf("%d\n", *a);
 }
 else if (n < 0)
 {
