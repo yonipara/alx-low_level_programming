@@ -10,6 +10,7 @@
 void print_array(int *a, int n)
 {
 int i;
+a = &a[0];
 
 if (n == 0)
 {
