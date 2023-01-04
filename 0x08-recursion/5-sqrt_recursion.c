@@ -4,7 +4,6 @@
  * @num: the number that is rooted.
  * @root: the root to be tested.
  * Return: if the number has a natural root the square root.
- * 	   if the number has no natural root -1.
  */
 #include "main.h"
 #include <math.h>
@@ -34,6 +33,7 @@ int _sqrt(int num, int root)
 int _sqrt_recursion(int n)
 {
 	int root = 0;
+
 	if (n < 0)
 		return (-1);
 	if (n == 1)
