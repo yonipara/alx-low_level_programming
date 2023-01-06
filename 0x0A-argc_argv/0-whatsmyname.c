@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - prints the name of the program.
@@ -6,7 +5,7 @@
  * @argv: a string array argument.
  * Return: nothing
  */
-int mynameis(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 if (argc < 1)
 {
