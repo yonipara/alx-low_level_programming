@@ -2,9 +2,10 @@
 #include <stdlib.h>
 /**
  * main - function.
+ * Description -> main returns the number of coins.
  * @argc: number of arguments.
  * @argv: command line argumennts.
- * Retutn: 0 (succes).
+ * Return: 0 (succes).
  */
 
 int main(int argc, char *argv[])
