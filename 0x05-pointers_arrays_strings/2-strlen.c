@@ -5,11 +5,11 @@
  * Return: the number of characters
  */
 int _strlen(char *s)
-{int a = 0;
-while (*s != '\0')
 {
-s++;
-a++;
+int i =0;
+while ((*(s + i)) != '\0')
+{
+i++;
 }
-return (a);
+return (i);
 }

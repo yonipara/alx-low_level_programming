@@ -7,5 +7,13 @@
 
 void print_number(int n)
 {
-printf("size of n: %lu\n", sizeof(n));
+int c;
+char *p = &(char)n;
+while ((c = fgetc(p) != '\0')
+{
+if (c >= 48 && c <= 57)
+{
+_putchar(c);
+}
+}
 }

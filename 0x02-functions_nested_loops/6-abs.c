@@ -10,13 +10,9 @@ if (j < 0)
 {
 j *= -1;
 }
-else if (j > 0)
-{
-j *= 1;
-}
 else
 {
-
+;
 }
 return (j);
 }
