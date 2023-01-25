@@ -58,6 +58,6 @@ return (a / b);
  * Return: The remainder of the division of a by b.
  */
 int op_mod(int a, int b)
-{{
+{
 return (a % b);
 }
