@@ -21,7 +21,7 @@ n++;
 }
 else
 {
-printf("[%i] [%s]\n", tmp->len, tmp->str);
+printf("[%i] %s\n", tmp->len, tmp->str);
 n++;
 }
 }
