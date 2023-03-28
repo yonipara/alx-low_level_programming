@@ -9,13 +9,16 @@
 int sum_listint(listint_t *head)
 {
 int sum = 0;
-listint_t *temp = head;
+listint_t *temp;
 
-while (temp)
+for (temp = head; temp->next != NULL; temp = temp->next)
 {
-sum += temp->n;
-temp = temp->next;
+if (head == NULL)
+{
+return (0);
 }
 
-return (sum);
+sum = sum + temp->n;
+}
+return (sum + temp->n);
 }
