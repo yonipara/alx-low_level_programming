@@ -11,7 +11,7 @@ int sum_listint(listint_t *head)
 int sum = 0;
 listint_t *temp;
 
-for (temp = head; temp->next != NULL; temp = temp->next)
+for (temp = head; temp != NULL; temp = temp->next)
 {
 if (head == NULL)
 {
@@ -20,5 +20,5 @@ return (0);
 
 sum = sum + temp->n;
 }
-return (sum + temp->n);
+return (sum);
 }
