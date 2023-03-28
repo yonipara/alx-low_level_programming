@@ -15,7 +15,7 @@ return;
 
 while (*head)
 {
-temp = (*head)->next;
+temp = temp->next;
 free(*head);
 *head = temp;
 }
