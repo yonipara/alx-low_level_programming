@@ -13,9 +13,10 @@ listint_t *new;
 listint_t *temp = *head;
 
 new = malloc(sizeof(listint_t));
-if (!new)
+if (new == NULL)
+{
 return (NULL);
-
+}
 new->n = n;
 new->next = NULL;
 
@@ -25,9 +26,10 @@ if (*head == NULL)
 return (new);
 }
 
-while (temp->next)
+while (temp->next != NULL)
+{
 temp = temp->next;
+}
 temp->next = new;
-
 return (new);
 }
