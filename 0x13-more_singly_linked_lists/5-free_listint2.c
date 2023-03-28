@@ -13,13 +13,12 @@ if (head == NULL)
 return;
 }
 
-while ((*head)->next != NULL)
+while (*head != NULL)
 {
-temp = temp->next;
+temp = (*head)->next;
 free(*head);
 *head = temp;
 }
 
-free(*head);
 *head = NULL;
 }
