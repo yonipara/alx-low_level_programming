@@ -13,12 +13,12 @@ unsigned int i = 0;
 
 for (;i < index; i++)
 {
-	head = head->next;
+head = head->next;
 
-	 if (head == NULL)
-	 {
-		 return (NULL);
-	 }
+if (head == NULL)
+{
+return (NULL);
+}
 }
 return (head);
 }
