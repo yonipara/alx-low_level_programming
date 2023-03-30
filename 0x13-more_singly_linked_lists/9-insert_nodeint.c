@@ -29,13 +29,17 @@ new->next = *head;
 return (new);
 }
 
-for (i = 1; i < idx; i++)
+for (i = 0; temp && i < idx; i++)
 {
-temp = temp->next;
-}
-
+if (i == idx - 1)
+{
 new->next = temp->next;
 temp->next = new;
+return (new);
+}
+else
+temp = temp->next;
+}
 
 return (NULL);
 }
