@@ -28,7 +28,9 @@ new->next = NULL;
 
 if (idx == 0)
 {
-add_dnodeint(&new, n);
+new->next = *h;
+(*h)->prev = new;
+*h = new;
 return (new);
 }
 
