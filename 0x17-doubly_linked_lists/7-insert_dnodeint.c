@@ -49,5 +49,5 @@ temp2->next = new->next;
 temp = temp->next;
 }
 
-return (new);
+return (NULL);
 }
