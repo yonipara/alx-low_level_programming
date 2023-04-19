@@ -23,6 +23,11 @@ int create_file(const char *filename, char *text_content)
 
 		write(fd, text_content, len);
 
+		if (write == -1)
+		{
+			return (-1);
+		}
+
 		write(fd, '\0', 1);
 
 		close(fd);
