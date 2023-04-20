@@ -26,8 +26,8 @@ int main(int argc, char **argv)
 
 	if (buffer == NULL)
 	{
-		dprintf(2, "Error: Can't write to %s\n", argv[2]);
-		exit(99);
+		dprintf(2, "Error: Can't read from file %s\n", argv[1]);
+                exit(98);
 	}
 
 	i = read(fd1, buffer, 1024);
